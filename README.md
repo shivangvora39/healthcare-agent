@@ -43,6 +43,8 @@ Copy `.env.template` to `.env` and fill in your values:
 ```
 FOUNDRY_PROJECT_ENDPOINT=https://<your-project>.services.ai.azure.com
 FOUNDRY_MODEL_DEPLOYMENT_NAME=gpt-4o
+# Azure OpenAI Service connection name configured in your Foundry project
+AZURE_OPENAI_CONNECTION_NAME=
 ```
 
 ### 4. Run the agent
