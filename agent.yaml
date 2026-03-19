@@ -1,0 +1,14 @@
+name: healthcare-assistant
+description: >
+  A healthcare assistant agent that provides general health information,
+  symptom guidance, wellness tips, and medication awareness.  Backed by
+  an Azure OpenAI Service deployment.
+template:
+  kind: hosted
+  protocols:
+    - name: responses
+      version: "1"
+  environment_variables:
+    - FOUNDRY_PROJECT_ENDPOINT
+    - AZURE_OPENAI_DEPLOYMENT
+    - AZURE_OPENAI_CONNECTION_NAME

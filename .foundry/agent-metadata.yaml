@@ -1,0 +1,10 @@
+# Foundry agent metadata — source of truth for project settings.
+# See: https://learn.microsoft.com/azure/ai-foundry/agents/concepts/hosted-agents
+
+defaultEnvironment: dev
+
+environments:
+  dev:
+    projectEndpoint: ""        # e.g. https://<project>.services.ai.azure.com
+    agentName: "healthcare-assistant"
+    azureContainerRegistry: "" # e.g. myregistry.azurecr.io
